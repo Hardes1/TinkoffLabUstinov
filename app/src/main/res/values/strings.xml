@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TinkoffLabUstinov</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header_top">TOP</string>
+    <string name="header_latest">LATEST</string>
+    <string name="header_hot">HOT</string>
+    <string name="prev_button_text">back</string>
+    <string name="next_button_text">next</string>
 </resources>
