@@ -6,4 +6,5 @@
     <string name="header_hot">HOT</string>
     <string name="prev_button_text">back</string>
     <string name="next_button_text">next</string>
+    <string name="refresh">refresh</string>
 </resources>

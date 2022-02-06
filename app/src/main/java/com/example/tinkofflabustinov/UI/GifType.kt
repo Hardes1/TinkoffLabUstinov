@@ -1,9 +1,13 @@
 package com.example.tinkofflabustinov.UI
 
-enum class GifType(value : Int)  {
-    LATEST(0),
-    HOT(1),
-    TOP(2),
-    NONE(3)
+enum class GifType(val category : String) {
+    LATEST("latest"),
+    HOT("hot"),
+    TOP("top"),
+    NONE("");
 
+    companion object {
+        private val VALUES = values()
+        fun getByValue(value: Int) = VALUES.firstOrNull { it.ordinal == value }
+    }
 }

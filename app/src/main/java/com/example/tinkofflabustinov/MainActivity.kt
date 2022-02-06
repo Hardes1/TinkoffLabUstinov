@@ -1,9 +1,7 @@
 package com.example.tinkofflabustinov
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
-import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.tinkofflabustinov.adapters.ViewPagerAdapter
 import com.example.tinkofflabustinov.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
